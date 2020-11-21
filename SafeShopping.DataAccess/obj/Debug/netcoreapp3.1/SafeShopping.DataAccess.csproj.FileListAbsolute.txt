@@ -1,0 +1,15 @@
+C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.DataAccess\bin\Debug\netcoreapp3.1\SafeShopping.DataAccess.deps.json
+C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.DataAccess\bin\Debug\netcoreapp3.1\SafeShopping.DataAccess.dll
+C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.DataAccess\bin\Debug\netcoreapp3.1\SafeShopping.DataAccess.pdb
+C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.DataAccess\obj\Debug\netcoreapp3.1\SafeShopping.DataAccess.csprojAssemblyReference.cache
+C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.DataAccess\obj\Debug\netcoreapp3.1\SafeShopping.DataAccess.AssemblyInfoInputs.cache
+C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.DataAccess\obj\Debug\netcoreapp3.1\SafeShopping.DataAccess.AssemblyInfo.cs
+C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.DataAccess\obj\Debug\netcoreapp3.1\SafeShopping.DataAccess.dll
+C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.DataAccess\obj\Debug\netcoreapp3.1\SafeShopping.DataAccess.pdb
+C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.DataAccess\bin\Debug\netcoreapp3.1\SafeShopping.DataAccess.runtimeconfig.json
+C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.DataAccess\bin\Debug\netcoreapp3.1\SafeShopping.DataAccess.runtimeconfig.dev.json
+C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.DataAccess\obj\Debug\netcoreapp3.1\SafeShopping.DataAccess.genruntimeconfig.cache
+C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.DataAccess\obj\Debug\netcoreapp3.1\SafeShopping.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.DataAccess\bin\Debug\netcoreapp3.1\SafeShopping.Core.dll
+C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.DataAccess\bin\Debug\netcoreapp3.1\SafeShopping.Core.pdb
+C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.DataAccess\obj\Debug\netcoreapp3.1\SafeShopping.DataAccess.csproj.CopyComplete

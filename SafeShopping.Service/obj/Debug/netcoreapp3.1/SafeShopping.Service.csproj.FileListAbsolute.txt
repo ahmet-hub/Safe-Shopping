@@ -1,0 +1,12 @@
+C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.Service\bin\Debug\netcoreapp3.1\SafeShopping.Service.deps.json
+C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.Service\bin\Debug\netcoreapp3.1\SafeShopping.Service.dll
+C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.Service\bin\Debug\netcoreapp3.1\SafeShopping.Service.pdb
+C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.Service\obj\Debug\netcoreapp3.1\SafeShopping.Service.csprojAssemblyReference.cache
+C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.Service\obj\Debug\netcoreapp3.1\SafeShopping.Service.AssemblyInfoInputs.cache
+C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.Service\obj\Debug\netcoreapp3.1\SafeShopping.Service.AssemblyInfo.cs
+C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.Service\obj\Debug\netcoreapp3.1\SafeShopping.Service.csproj.CoreCompileInputs.cache
+C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.Service\obj\Debug\netcoreapp3.1\SafeShopping.Service.dll
+C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.Service\obj\Debug\netcoreapp3.1\SafeShopping.Service.pdb
+C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.Service\bin\Debug\netcoreapp3.1\SafeShopping.Core.dll
+C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.Service\bin\Debug\netcoreapp3.1\SafeShopping.Core.pdb
+C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.Service\obj\Debug\netcoreapp3.1\SafeShopping.Service.csproj.CopyComplete
