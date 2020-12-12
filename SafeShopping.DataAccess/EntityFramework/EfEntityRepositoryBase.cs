@@ -48,7 +48,6 @@ namespace SafeShopping.DataAccess.EntityFramework
             return await _dbSet.SingleOrDefaultAsync(predicate);
            
         }
-
         public TEntity Update(TEntity entity)
         {
             _dbSet.Update(entity);

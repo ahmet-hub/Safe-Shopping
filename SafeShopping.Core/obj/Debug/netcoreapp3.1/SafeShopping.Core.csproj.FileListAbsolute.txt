@@ -1,9 +1,9 @@
 C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.Core\bin\Debug\netcoreapp3.1\SafeShopping.Core.deps.json
 C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.Core\bin\Debug\netcoreapp3.1\SafeShopping.Core.dll
 C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.Core\bin\Debug\netcoreapp3.1\SafeShopping.Core.pdb
-C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.Core\obj\Debug\netcoreapp3.1\SafeShopping.Core.csprojAssemblyReference.cache
 C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.Core\obj\Debug\netcoreapp3.1\SafeShopping.Core.AssemblyInfoInputs.cache
 C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.Core\obj\Debug\netcoreapp3.1\SafeShopping.Core.AssemblyInfo.cs
 C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.Core\obj\Debug\netcoreapp3.1\SafeShopping.Core.csproj.CoreCompileInputs.cache
 C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.Core\obj\Debug\netcoreapp3.1\SafeShopping.Core.dll
 C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.Core\obj\Debug\netcoreapp3.1\SafeShopping.Core.pdb
+C:\Users\ahmet\source\repos\SafeShopping\SafeShopping.Core\obj\Debug\netcoreapp3.1\SafeShopping.Core.csprojAssemblyReference.cache

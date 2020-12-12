@@ -1,15 +1,8 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Remove="Migrations\20201117110701_Initial3.cs" />
-    <Compile Remove="Migrations\20201117110701_Initial3.Designer.cs" />
-    <Compile Remove="Migrations\20201117111003_Initial2.cs" />
-    <Compile Remove="Migrations\20201117111003_Initial2.Designer.cs" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.9" />

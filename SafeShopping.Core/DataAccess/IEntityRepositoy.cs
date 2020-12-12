@@ -12,9 +12,7 @@ namespace SafeShopping.Core.DataAccess
     {
         Task<TEntity> GetByIdAsync(int id);
         Task<IEnumerable<TEntity>> GetAllAsync();
-
         Task<TEntity> SingleOrDefaultAsync(Expression<Func<TEntity, bool>> predicate);
-
         Task<TEntity> Add(TEntity entity);
         TEntity Update(TEntity entity);
         void Remove(TEntity entity);

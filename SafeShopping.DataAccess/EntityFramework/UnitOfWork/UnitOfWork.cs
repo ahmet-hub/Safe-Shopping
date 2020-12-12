@@ -9,9 +9,11 @@ namespace SafeShopping.DataAccess.EntityFramework.UnitOfWork
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private AccountRepository _accountRepository;
+        private UserRepository _accountRepository;
 
-        public IAccountRepository Account => _accountRepository ??= new AccountRepository(_safeShoppingContext);
+        private TransactionRepository _transactionRepository;
+        public IUserRepository User => _accountRepository ??= new UserRepository(_safeShoppingContext);
+        public ITransactionRepository Transaction => _transactionRepository ??= new TransactionRepository(_safeShoppingContext);
 
         private readonly SafeShoppingContext _safeShoppingContext;
         public UnitOfWork(SafeShoppingContext context)
@@ -28,7 +30,7 @@ namespace SafeShopping.DataAccess.EntityFramework.UnitOfWork
 
         public async Task CommitAsync()
         {
-          await  _safeShoppingContext.SaveChangesAsync();
+            await _safeShoppingContext.SaveChangesAsync();
         }
     }
 }

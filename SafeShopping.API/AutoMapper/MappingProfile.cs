@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using SafeShopping.API.Dtos;
+using SafeShopping.API.Resource;
 using SafeShopping.Core.Entitiy.Concrete;
 using System;
 using System.Collections.Generic;
@@ -8,14 +8,14 @@ using System.Threading.Tasks;
 
 namespace SafeShopping.API.AutoMapper
 {
-    public class MappingProfile:Profile
+    public class MappingProfile : Profile
     {
         public MappingProfile()
         {
-            CreateMap<Account, AccountDto>();
-            CreateMap<AccountDto, Account>();
+            CreateMap<RegisterResource, User>();
+            CreateMap<User, RegisterResource>();
         }
-      
-        
+
+
     }
 }

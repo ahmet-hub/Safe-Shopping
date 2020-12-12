@@ -20,6 +20,12 @@ using SafeShopping.Service.Services;
 using AutoMapper;
 using SafeShopping.Core.Entitiy.Concrete;
 using SafeShopping.Service.Adapter;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using System.Text;
+using Microsoft.IdentityModel.Tokens;
+using SafeShopping.Service.Security.Token;
+using SafeShopping.Service.Services.Authentication;
+using SafeShopping.Core.DataAccess;
 
 namespace SafeShopping.API
 {
@@ -39,18 +45,41 @@ namespace SafeShopping.API
             services.AddAutoMapper(typeof(Startup));
             services.AddScoped(typeof(IService<>), typeof(Service.Services.Service<>));
             services.AddScoped(typeof(Core.DataAccess.IEntityRepositoy<>), typeof(EfEntityRepositoryBase<>));
-            services.AddScoped(typeof(IAccountService), typeof(AccountService));
-            services.AddScoped(typeof(IAccountCheckService), typeof(MernisServiceAdapter));
+            services.AddScoped(typeof(IUserService), typeof(UserService));
+            services.AddScoped(typeof(IUserCheckService), typeof(MernisServiceAdapter));
             services.AddScoped(typeof(IUnitOfWork), typeof(UnitOfWork));
-            services.AddControllers();
-         
+            services.AddScoped(typeof(IAuthenticationService), typeof(AuthenticationService));
+            services.AddScoped(typeof(IUserRepository), typeof(UserRepository));
+            services.AddScoped(typeof(ITokenHandle), typeof(TokenHandle));
+            services.AddScoped(typeof(ITransactionService), typeof(TransactionService));
+            services.AddScoped(typeof(ITransactionRepository), typeof(TransactionRepository));
+            services.AddScoped(typeof(ILoadMoneyRepository), typeof(LoadMoneyRepository));
+            services.AddScoped(typeof(ILoadMoneyService), typeof(LoadMoneyService));
+
+            var securityKey = SignHandle.GetSecurityKey("mysecuritykeymysecuritykeymysecuritykeyahmet");
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(JwtBearerOptions =>
+            {
+                JwtBearerOptions.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
+                {
+
+                    ValidateAudience = true,
+                    ValidateIssuer = true,
+                    ValidateLifetime = true,
+                    ValidateIssuerSigningKey = true,
+                    ValidIssuer = "www.safeshopping.com",
+                    ValidAudience = "www.safeshopping.com",
+                    IssuerSigningKey = securityKey,
+                    ClockSkew = TimeSpan.Zero
+
+                };
+            });
             services.AddDbContext<SafeShoppingContext>(options =>
             {
-                options.UseSqlServer(Configuration["ConnectionStrings:SqlConStr"].ToString(),o=>o.MigrationsAssembly("SafeShopping.DataAccess"));
+                options.UseSqlServer(Configuration["ConnectionStrings:SqlConStr"].ToString(), o => o.MigrationsAssembly("SafeShopping.DataAccess"));
                 services.AddScoped<IUnitOfWork, UnitOfWork>();
             });
 
-           
+            services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -61,12 +90,10 @@ namespace SafeShopping.API
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
-
+            //app.UseHttpsRedirection();
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

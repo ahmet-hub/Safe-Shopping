@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "B56F3uhHqOcGIh7q/gZa+EX+t658I7C2Q5sfu8ooJiwIOD+joLIjfxbDvX5G8umaYDQ/mSnDz1VbVkqnlsUXGw==",
+  "dgSpecHash": "qCrKvx7S6BpOD5bWrZY34DSMDoehdsTiJxZOJCY2uNkImEGX2HJQxhkJ3sLsXXws7se86QJSLomlrttDVR2fXw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ahmet\\source\\repos\\SafeShopping\\SafeShopping.API\\SafeShopping.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ahmet\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\ahmet\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
+    "C:\\Users\\ahmet\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.10\\microsoft.aspnetcore.authentication.jwtbearer.3.1.10.nupkg.sha512",
     "C:\\Users\\ahmet\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\ahmet\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\ahmet\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

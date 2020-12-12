@@ -8,7 +8,8 @@ namespace SafeShopping.Core.UnitOfWork
 {
     public interface IUnitOfWork
     {
-        IAccountRepository Account { get; }
+        IUserRepository  User { get; }     
+        ITransactionRepository Transaction { get; }
         Task CommitAsync();
         void Commit();
     }

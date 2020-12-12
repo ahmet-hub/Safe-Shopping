@@ -7,7 +7,7 @@ using System.Text;
 
 namespace SafeShopping.Service.Adapter
 {
-    public class MernisServiceAdapter : IAccountCheckService
+    public class MernisServiceAdapter : IUserCheckService
     {
         //public bool CheckIfRealPerson(Account account)
         //{
@@ -15,7 +15,7 @@ namespace SafeShopping.Service.Adapter
         //    var response = kPSPublicSoapClient.TCKimlikNoDogrulaAsync(Convert.ToInt64(account.IdentificationNumber), account.Name.ToUpper(), account.LastName.ToUpper(), account.DateOfBirth.Year);
         //    return response.Result.Body.TCKimlikNoDogrulaResult;
         //}
-        public bool CheckIfRealPerson(Account account)
+        public bool CheckIfRealPerson(User user)
         {
             return true;
         }
